@@ -32,4 +32,4 @@ os.system('python ~/OpenFOAM/vitti-6/applications/dugksFoam/src/scripts/setDV.py
 
 #Criando a malha:
 
-os.system('blockMesh')
+os.system('gmshToFoam nozzle.msh')
